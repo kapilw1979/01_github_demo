@@ -1,6 +1,6 @@
 hostname router 1
 !
-ntp server 1.1.1.1
+ntp server 8.8.8.8
 ip name-server 8.8.8.8
 
 interface loopback 1
