@@ -5,3 +5,6 @@ ip name-server 8.8.8.8
 
 interface loopback 1
 ip address 1.1.1.1 255.255.255.255
+
+Interface loopback2
+ip address 2.2.2.2 255.255.255.255
