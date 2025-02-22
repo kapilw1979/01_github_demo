@@ -1,6 +1,10 @@
 hostname router 1
 !
+<<<<<<< HEAD
 ntp server 8.8.8.8
+=======
+ntp server 2.2.2.2
+>>>>>>> ospf
 ip name-server 8.8.8.8
 
 interface loopback 1
@@ -11,3 +15,6 @@ ip address 2.2.2.2 255.255.255.255
 
 Interface loopback3
 ip address 3.3.3.3 255.255.255.255
+
+Interface loopback 4
+ip address 4.4.4.4 255.255.255.255
